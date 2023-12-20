@@ -1,0 +1,92 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carddetail {
+    width: 60%;
+    margin: 100px auto;
+    border: #333 solid 2px;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.card-img {
+    margin-right: 20px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+    margin-top: 15px;
+}
+
+.form-container {
+    margin-top: 40px;
+}
